@@ -27,9 +27,22 @@ namespace PDAapplicatie {
             DbHandeler db = new DbHandeler ();
             label2.Text = DateTime.Now.Hour + ":" + DateTime.Now.Minute.ToString ("00");
             label3.Text = ( SystemInformation.PowerStatus.BatteryLifePercent * 100 ) + "%";
+
+            Tafelbezet[] klaar = db.TafelsKlaar();
+            Button[] buttons = {button2, button3, button4, button5, button6, button7, button8, button9, button10, button11};
+
+            for (int i = 0; i < klaar.Length; i++)
+            {
+                setButtonColor(buttons[i], i, klaar);   
+            }
+        }
+
+        private void setButtonColor(Button button, int klaarCount, Tafelbezet[] klaar){
+            button.BackColor = klaar[klaarCount].bezet ? Color.IndianRed : Color.DarkKhaki;
         }
 
         private void button2_Click (object sender, EventArgs e) {
+
         }
 
         private void button3_Click (object sender, EventArgs e) {

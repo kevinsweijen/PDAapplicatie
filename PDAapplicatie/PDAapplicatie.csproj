@@ -226,6 +226,9 @@
     <EmbeddedResource Include="LunchVoorcs.resx">
       <DependentUpon>LunchVoorcs.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Openstaand.resx">
+      <DependentUpon>Openstaand.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

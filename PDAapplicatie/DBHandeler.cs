@@ -81,6 +81,22 @@ namespace PDAapplicatie {
             return tafelbezet;
         }
 
+        public Tafelbezet[] TafelsKlaar()
+        {
+            Tafelbezet[] tafelbezet = new Tafelbezet[10];
+            OleDbConnection conn = new OleDbConnection(connString);
+            conn.Open();
+            OleDbCommand command = new OleDbCommand("SELECT Tafel,Tijd FROM Bestelling WHERE Status='Klaar';", conn);
+            OleDbDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                int i = Convert.ToInt32(reader.GetString(0)) - 1;
+                tafelbezet[i].bezet = true;
+            }
+            conn.Close();
+            return tafelbezet;
+        }
+
         public int Voorraad(int id) {
             OleDbConnection conn = new OleDbConnection(connString);
             conn.Open();
