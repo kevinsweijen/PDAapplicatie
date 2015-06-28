@@ -37,23 +37,18 @@ namespace PDAapplicatie {
             int bestelnummer = 0;
 
 
-            OleDbCommand command = new OleDbCommand (string.Format ("SELECT Bestelnummer FROM Bestelling WHERE Status='Bezet' AND Tafel ='{0}'", nummer), conn);
+            OleDbCommand command = new OleDbCommand (string.Format ("SELECT Bestelnummer FROM Bestelling WHERE Status='Bezet' AND Tafel ='{0}'", tflnummer), conn);
             bestelnummer = Convert.ToInt32 (command.ExecuteScalar ());
             conn.Close();
             return bestelnummer;
         }
 
         public void SchrijfProducten(Waarden wrd) {
+            int bestelnummer = wrd.bestelnummer;
             List<Product> bestelling = wrd.Bestelling;
-            int nummer = wrd.Tafelnummer;
             double prijs = 0;
             OleDbConnection conn = new OleDbConnection(connString);
-            conn.Open();
-            int bestelnummer = 0;
-            
-
-            OleDbCommand command = new OleDbCommand(string.Format("SELECT Bestelnummer FROM Bestelling WHERE Status='Bezet' AND Tafel ='{0}'", nummer), conn);
-            bestelnummer = Convert.ToInt32(command.ExecuteScalar());
+            OleDbCommand command = new OleDbCommand();
             foreach (Product p in bestelling) {
                 prijs += p.prijs;
                 string sql = string.Format("INSERT INTO Bevat (Bestelnummer, [Product ID]) " + "values ('{0}', '{1}')",
@@ -71,7 +66,7 @@ namespace PDAapplicatie {
             Tafelbezet[] tafelbezet  = new Tafelbezet[10];
             OleDbConnection conn =  new OleDbConnection(connString);
             conn.Open();
-            OleDbCommand command = new OleDbCommand("SELECT Tafel,Tijd FROM Bestelling WHERE Status='Bezet';", conn);
+            OleDbCommand command = new OleDbCommand("SELECT Tafel FROM Bestelling WHERE Status='Bezet';", conn);
             OleDbDataReader reader = command.ExecuteReader();
             while (reader.Read()) {
                 int i = Convert.ToInt32(reader.GetString(0)) -1;
