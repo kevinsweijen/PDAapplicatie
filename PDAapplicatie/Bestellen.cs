@@ -24,8 +24,8 @@ namespace PDAapplicatie {
             label1.Text = naam;
             this.naam = naam;
             db = new DbHandeler();
-            
-            
+
+            waarden.bestelnummer = db.Bestellingsnummer(waarden);
         }
 
         private void button1_Click (object sender, EventArgs e) {

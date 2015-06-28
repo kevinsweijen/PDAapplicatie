@@ -136,9 +136,9 @@ namespace PDAapplicatie {
             return Prijs.ToString("####0.00");
         }
 
-        public Waarden UpdateWaarden() {
+        //public Waarden UpdateWaarden() {
             
-        }
+        //}
 
     }
 }
