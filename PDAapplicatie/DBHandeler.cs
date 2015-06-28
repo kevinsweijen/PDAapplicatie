@@ -136,6 +136,37 @@ namespace PDAapplicatie {
             return Prijs.ToString("####0.00");
         }
 
+        public List<Product> GetProuctenByTafelNumber(int tafelNummer)
+        {
+            List<Product> products = new List<Product> { };
+
+            OleDbConnection conn = new OleDbConnection(connString);
+            conn.Open();
+
+            OleDbCommand command = new OleDbCommand(string.Format("SELECT `Product ID` FROM Bestelling b JOIN Bevat be ON b.Tafel=be.`Product ID`  WHERE Tafel='{0}' AND Status='In behandeling' ", tafelNummer), conn);
+            try
+            {
+                //bestelNummer = (int) command.ExecuteScalar();
+                OleDbDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    Product p = new Product();
+                    p.id = Convert.ToInt32(reader.GetString(0));
+                    products.Add(p);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.Write(e.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return products;
+        }
+
         //public Waarden UpdateWaarden() {
             
         //}

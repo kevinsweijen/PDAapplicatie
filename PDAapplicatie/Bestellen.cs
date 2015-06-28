@@ -26,6 +26,7 @@ namespace PDAapplicatie {
             db = new DbHandeler();
 
             waarden.bestelnummer = db.Bestellingsnummer(waarden);
+            waarden.Bestelling = db.GetProuctenByTafelNumber(waarden.Tafelnummer);
         }
 
         private void button1_Click (object sender, EventArgs e) {
