@@ -30,6 +30,19 @@ namespace PDAapplicatie {
             return naam;
         }
 
+        public int Bestellingsnummer(Waarden wrd) {
+            int tflnummer = wrd.Tafelnummer;
+            OleDbConnection conn = new OleDbConnection (connString);
+            conn.Open ();
+            int bestelnummer = 0;
+
+
+            OleDbCommand command = new OleDbCommand (string.Format ("SELECT Bestelnummer FROM Bestelling WHERE Status='Bezet' AND Tafel ='{0}'", nummer), conn);
+            bestelnummer = Convert.ToInt32 (command.ExecuteScalar ());
+            conn.Close();
+            return bestelnummer;
+        }
+
         public void SchrijfProducten(Waarden wrd) {
             List<Product> bestelling = wrd.Bestelling;
             int nummer = wrd.Tafelnummer;
@@ -40,10 +53,7 @@ namespace PDAapplicatie {
             
 
             OleDbCommand command = new OleDbCommand(string.Format("SELECT Bestelnummer FROM Bestelling WHERE Status='Bezet' AND Tafel ='{0}'", nummer), conn);
-            OleDbDataReader reader = command.ExecuteReader();
-            while (reader.Read()) {
-                bestelnummer = reader.GetInt32(0);
-            }
+            bestelnummer = Convert.ToInt32(command.ExecuteScalar());
             foreach (Product p in bestelling) {
                 prijs += p.prijs;
                 string sql = string.Format("INSERT INTO Bevat (Bestelnummer, [Product ID]) " + "values ('{0}', '{1}')",
@@ -51,7 +61,6 @@ namespace PDAapplicatie {
                 command = new OleDbCommand(sql, conn);
                 command.ExecuteNonQuery();
             }
-            int prijsint =(int)(prijs * 100);
             command.CommandText =
                 string.Format("UPDATE Bestelling SET Prijs='{0}' WHERE Status='Bezet' AND Tafel = '{1}'", prijs, nummer);
             command.ExecuteNonQuery();
