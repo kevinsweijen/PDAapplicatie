@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{61A5B118-5E25-41D4-A417-2A261E22C046}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PDAapplicatie</RootNamespace>
+    <AssemblyName>PDAapplicatie</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LunchBestellen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LunchBestellen.Designer.cs">
+      <DependentUpon>LunchBestellen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bier.Designer.cs">
+      <DependentUpon>Bier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DinerHoofd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DinerHoofd.Designer.cs">
+      <DependentUpon>DinerHoofd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DinerNa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DinerNa.Designer.cs">
+      <DependentUpon>DinerNa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DinerTussen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DinerTussen.Designer.cs">
+      <DependentUpon>DinerTussen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DinerVoor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DinerVoor.Designer.cs">
+      <DependentUpon>DinerVoor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dranken.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dranken.Designer.cs">
+      <DependentUpon>Dranken.cs</DependentUpon>
+    </Compile>
+    <Compile Include="enums.cs" />
+    <Compile Include="DBHandeler.cs" />
+    <Compile Include="Hoofdmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdmenu.Designer.cs">
+      <DependentUpon>Hoofdmenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bestellen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bestellen.Designer.cs">
+      <DependentUpon>Bestellen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fris.Designer.cs">
+      <DependentUpon>Fris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inzien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inzien.Designer.cs">
+      <DependentUpon>Inzien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KoffieThee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KoffieThee.Designer.cs">
+      <DependentUpon>KoffieThee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DinerBestellen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DinerBestellen.Designer.cs">
+      <DependentUpon>DinerBestellen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LunchHoofd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LunchHoofd.Designer.cs">
+      <DependentUpon>LunchHoofd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LunchNa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LunchNa.Designer.cs">
+      <DependentUpon>LunchNa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LunchVoorcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LunchVoorcs.Designer.cs">
+      <DependentUpon>LunchVoorcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Openstaand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Openstaand.Designer.cs">
+      <DependentUpon>Openstaand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SterkeDrank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SterkeDrank.Designer.cs">
+      <DependentUpon>SterkeDrank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tafelselect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tafelselect.Designer.cs">
+      <DependentUpon>Tafelselect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Waarden.cs" />
+    <Compile Include="Wijn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wijn.Designer.cs">
+      <DependentUpon>Wijn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wijzigen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wijzigen.Designer.cs">
+      <DependentUpon>Wijzigen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="LunchBestellen.resx">
+      <DependentUpon>LunchBestellen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bier.resx">
+      <DependentUpon>Bier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DinerBestellen.resx">
+      <DependentUpon>DinerBestellen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DinerHoofd.resx">
+      <DependentUpon>DinerHoofd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DinerNa.resx">
+      <DependentUpon>DinerNa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DinerTussen.resx">
+      <DependentUpon>DinerTussen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DinerVoor.resx">
+      <DependentUpon>DinerVoor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dranken.resx">
+      <DependentUpon>Dranken.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdmenu.resx">
+      <DependentUpon>Hoofdmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestellen.resx">
+      <DependentUpon>Bestellen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fris.resx">
+      <DependentUpon>Fris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LunchHoofd.resx">
+      <DependentUpon>LunchHoofd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LunchNa.resx">
+      <DependentUpon>LunchNa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LunchVoorcs.resx">
+      <DependentUpon>LunchVoorcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SterkeDrank.resx">
+      <DependentUpon>SterkeDrank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tafelselect.resx">
+      <DependentUpon>Tafelselect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wijn.resx">
+      <DependentUpon>Wijn.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
