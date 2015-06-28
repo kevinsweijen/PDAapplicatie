@@ -24,3 +24,4 @@ C:\Users\kevin\Documents\Visual Studio 2013\Projects\PDAapplicatie\PDAapplicatie
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\PDAapplicatie\PDAapplicatie\obj\Debug\PDAapplicatie.Hoofdmenu.resources
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\PDAapplicatie\PDAapplicatie\obj\Debug\PDAapplicatie.Login.resources
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\PDAapplicatie\PDAapplicatie\obj\Debug\PDAapplicatie.SterkeDrank.resources
+C:\Users\kevin\Documents\Visual Studio 2013\Projects\PDAapplicatie\PDAapplicatie\obj\Debug\PDAapplicatie.Openstaand.resources
