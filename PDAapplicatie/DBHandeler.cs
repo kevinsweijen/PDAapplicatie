@@ -47,6 +47,7 @@ namespace PDAapplicatie {
             int bestelnummer = wrd.bestelnummer;
             List<Product> bestelling = wrd.Bestelling;
             double prijs = 0;
+            int nummer = wrd.Tafelnummer;
             OleDbConnection conn = new OleDbConnection(connString);
             OleDbCommand command = new OleDbCommand();
             foreach (Product p in bestelling) {
