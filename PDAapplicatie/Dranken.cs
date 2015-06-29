@@ -58,7 +58,7 @@ namespace PDAapplicatie {
         }
 
         private void button2_Click (object sender, EventArgs e) {
-            var form = new LunchHoofd (wrd, naam) {
+            var form = new SterkeDrank (wrd, naam) {
                 Location = this.Location,
                 StartPosition = this.StartPosition
             };
@@ -88,7 +88,7 @@ namespace PDAapplicatie {
         }
 
         private void button4_Click (object sender, EventArgs e) {
-            var form = new DinerNa (wrd, naam) {
+            var form = new KoffieThee (wrd, naam) {
                 Location = this.Location,
                 StartPosition = this.StartPosition
             };

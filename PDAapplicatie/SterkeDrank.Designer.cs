@@ -188,7 +188,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.label5.Location = new System.Drawing.Point(28, 97);
+            this.label5.Location = new System.Drawing.Point(3, 96);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(166, 29);
             this.label5.TabIndex = 1;
@@ -229,11 +229,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label7.Location = new System.Drawing.Point(40, 102);
+            this.label7.Location = new System.Drawing.Point(35, 102);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(86, 26);
+            this.label7.Size = new System.Drawing.Size(95, 26);
             this.label7.TabIndex = 3;
-            this.label7.Text = "Fles wit";
+            this.label7.Text = "Whiskey";
             // 
             // panel3
             // 
@@ -260,11 +260,11 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label9.Location = new System.Drawing.Point(28, 116);
+            this.label9.Location = new System.Drawing.Point(43, 116);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(102, 26);
+            this.label9.Size = new System.Drawing.Size(67, 26);
             this.label9.TabIndex = 3;
-            this.label9.Text = "Fles rood";
+            this.label9.Text = "Vieux";
             // 
             // panel4
             // 
@@ -276,16 +276,17 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(170, 189);
             this.panel4.TabIndex = 23;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.label10.Location = new System.Drawing.Point(28, 113);
+            this.label10.Location = new System.Drawing.Point(43, 113);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(118, 29);
+            this.label10.Size = new System.Drawing.Size(63, 29);
             this.label10.TabIndex = 1;
-            this.label10.Text = "Glas rood";
+            this.label10.Text = "Rum";
             // 
             // label11
             // 
@@ -375,9 +376,9 @@
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.label14.Location = new System.Drawing.Point(19, 113);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(144, 29);
+            this.label14.Size = new System.Drawing.Size(127, 29);
             this.label14.TabIndex = 1;
-            this.label14.Text = "Champagne";
+            this.label14.Text = "Berenburg";
             // 
             // label15
             // 

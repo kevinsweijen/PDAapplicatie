@@ -36,9 +36,9 @@ namespace PDAapplicatie {
             if (een == 0) return;
             een--;
             label4.Text = een + "x";
-            wrd.Bestelling.RemoveAll (product => product.id == 32);
+            wrd.Bestelling.RemoveAll (product => product.id == 37);
             for (int x = 0; x < een; x++) {
-                wrd.Bestelling.Add (new Product { id = 32, prijs = 6.50 });
+                wrd.Bestelling.Add (new Product { id = 37, prijs = 6.50 });
             }
         }
         // Hoi ik ben een comment
@@ -73,7 +73,7 @@ namespace PDAapplicatie {
                 een++;
             }
             label4.Text = een + "x";
-            wrd.Bestelling.Add (new Product { id = 32, prijs = 6.50 });
+            wrd.Bestelling.Add (new Product { id = 37, prijs = 6.50 });
         }
 
         private void button6_Click (object sender, EventArgs e) {
@@ -112,15 +112,15 @@ namespace PDAapplicatie {
             if (drie == 0) return;
             drie--;
             label11.Text = drie + "x";
-            wrd.Bestelling.RemoveAll (product => product.id == 34);
+            wrd.Bestelling.RemoveAll (product => product.id == 39);
             for (int x = 0; x < drie; x++) {
-                wrd.Bestelling.Add (new Product { id = 34, prijs = 7.50 });
+                wrd.Bestelling.Add (new Product { id = 39, prijs = 7.50 });
 
             }
         }
 
         private void button8_Click (object sender, EventArgs e) {
-            int max = db.Voorraad (34);
+            int max = db.Voorraad (39);
             if (drie == max) {
                 return;
             } else if (drie > max) {
@@ -129,22 +129,22 @@ namespace PDAapplicatie {
                 drie++;
             }
             label11.Text = drie + "x";
-            wrd.Bestelling.Add (new Product { id = 34, prijs = 7.50 });
+            wrd.Bestelling.Add (new Product { id = 39, prijs = 7.50 });
         }
 
         private void button7_Click_1 (object sender, EventArgs e) {
             if (vier == 0) return;
             vier--;
             label6.Text = vier + "x";
-            wrd.Bestelling.RemoveAll (product => product.id == 33);
+            wrd.Bestelling.RemoveAll (product => product.id == 38);
             for (int x = 0; x < vier; x++) {
-                wrd.Bestelling.Add (new Product { id = 33, prijs = 32.00 });
+                wrd.Bestelling.Add (new Product { id = 38, prijs = 37.00 });
 
             }
         }
 
         private void button4_Click_1 (object sender, EventArgs e) {
-            int max = db.Voorraad (33);
+            int max = db.Voorraad (38);
             if (vier == max) {
                 return;
             } else if (vier > max) {
@@ -153,22 +153,22 @@ namespace PDAapplicatie {
                 vier++;
             }
             label6.Text = vier + "x";
-            wrd.Bestelling.Add (new Product { id = 33, prijs = 32.00 });
+            wrd.Bestelling.Add (new Product { id = 38, prijs = 37.00 });
         }
 
         private void button13_Click (object sender, EventArgs e) {
             if (vijf == 0) return;
             vijf--;
             label15.Text = vijf + "x";
-            wrd.Bestelling.RemoveAll (product => product.id == 35);
+            wrd.Bestelling.RemoveAll (product => product.id == 40);
             for (int x = 0; x < vijf; x++) {
-                wrd.Bestelling.Add (new Product { id = 35, prijs = 50.00 });
+                wrd.Bestelling.Add (new Product { id = 40, prijs = 50.00 });
 
             }
         }
 
         private void button12_Click (object sender, EventArgs e) {
-            int max = db.Voorraad (35);
+            int max = db.Voorraad (40);
             if (vijf == max) {
                 return;
             } else if (vijf > max) {
@@ -177,10 +177,14 @@ namespace PDAapplicatie {
                 vijf++;
             }
             label15.Text = vijf + "x";
-            wrd.Bestelling.Add (new Product { id = 35, prijs = 50.00 });
+            wrd.Bestelling.Add (new Product { id = 40, prijs = 50.00 });
         }
 
         private void panel6_Paint (object sender, PaintEventArgs e) {
+
+        }
+
+        private void panel4_Paint (object sender, PaintEventArgs e) {
 
         }
     }

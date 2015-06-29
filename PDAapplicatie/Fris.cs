@@ -100,7 +100,7 @@ namespace PDAapplicatie {
         }
 
         private void button5_Click (object sender, EventArgs e) {
-            var form = new Fris (wrd, naam) {
+            var form = new Dranken(wrd, naam) {
                 Location = this.Location,
                 StartPosition = this.StartPosition
             };
