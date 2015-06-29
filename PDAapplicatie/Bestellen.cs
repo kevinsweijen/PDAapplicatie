@@ -26,7 +26,8 @@ namespace PDAapplicatie {
             db = new DbHandeler();
 
             waarden.bestelnummer = db.Bestellingsnummer(waarden);
-            waarden.Bestelling = db.GetProuctenByTafelNumber(waarden.Tafelnummer);
+            waarden.Totaal = db.Prijs(waarden.bestelnummer);
+            waarden.Bestelling = db.GetProuctenByBestelNumber(waarden.bestelnummer);
         }
 
         private void button1_Click (object sender, EventArgs e) {
@@ -80,7 +81,7 @@ namespace PDAapplicatie {
         }
 
         private void button2_Click (object sender, EventArgs e) {
-            var form = new DinerBestellen();
+            var form = new DinerBestellen(waarden, naam);
             form.Location = this.Location;
             form.StartPosition = this.StartPosition;
             form.Show ();
@@ -97,7 +98,7 @@ namespace PDAapplicatie {
         }
 
         private void Form1_Load (object sender, EventArgs e) {
-            double prijs = 0.00;
+            double prijs = waarden.Totaal;
             foreach (Product p in waarden.Bestelling) {
                 prijs += p.prijs;
             }

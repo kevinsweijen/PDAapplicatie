@@ -12,9 +12,9 @@ using System.Windows.Forms;
 namespace PDAapplicatie {
     public partial class LunchVoor: Form {
         public string naam;
-        private int top = 0;
-        private int mid = 0;
-        private int bot = 0;
+        private int top;
+        private int mid;
+        private int bot;
         private DbHandeler db;
         public Waarden wrd;
         public LunchVoor () {
@@ -58,6 +58,18 @@ namespace PDAapplicatie {
         }
 
         private void Form1_Load (object sender, EventArgs e) {
+            foreach (Product p in wrd.Bestelling) {
+                if (p.id == 1) {
+                    top++;
+                } else if (p.id == 2) {
+                    mid++;
+                } else if (p.id == 3) {
+                    bot++;
+                }
+            }
+            label4.Text = top + "x";
+            label8.Text = mid + "x";
+            label6.Text = bot + "x";
         }
 
         private void button3_Click (object sender, EventArgs e) {
