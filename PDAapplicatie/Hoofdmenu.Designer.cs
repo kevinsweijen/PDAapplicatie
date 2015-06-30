@@ -24,99 +24,99 @@
         /// </summary>
         private void InitializeComponent () {
             this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btn_opnemen = new System.Windows.Forms.Button();
+            this.btn_inzien = new System.Windows.Forms.Button();
+            this.btn_teserveren = new System.Windows.Forms.Button();
+            this.btn_wijzigen = new System.Windows.Forms.Button();
+            this.btn_dagmenu = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label3 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btn_terug = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_opnemen
             // 
-            this.button1.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.button1.Location = new System.Drawing.Point(-27, 96);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(862, 189);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Bestelling opnemen";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button1_MouseDown);
-            this.button1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
+            this.btn_opnemen.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_opnemen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_opnemen.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_opnemen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_opnemen.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.btn_opnemen.Location = new System.Drawing.Point(-27, 96);
+            this.btn_opnemen.Name = "btn_opnemen";
+            this.btn_opnemen.Size = new System.Drawing.Size(862, 189);
+            this.btn_opnemen.TabIndex = 0;
+            this.btn_opnemen.Text = "Bestelling opnemen";
+            this.btn_opnemen.UseVisualStyleBackColor = false;
+            this.btn_opnemen.Click += new System.EventHandler(this.button1_Click);
+            this.btn_opnemen.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button1_MouseDown);
+            this.btn_opnemen.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
-            // button2
+            // btn_inzien
             // 
-            this.button2.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.button2.Location = new System.Drawing.Point(-27, 285);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(862, 189);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Bestelling inzien";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            this.button2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button2_MouseDown);
-            this.button2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button2_MouseUp);
+            this.btn_inzien.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_inzien.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_inzien.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_inzien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_inzien.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.btn_inzien.Location = new System.Drawing.Point(-27, 285);
+            this.btn_inzien.Name = "btn_inzien";
+            this.btn_inzien.Size = new System.Drawing.Size(862, 189);
+            this.btn_inzien.TabIndex = 1;
+            this.btn_inzien.Text = "Bestelling inzien";
+            this.btn_inzien.UseVisualStyleBackColor = false;
+            this.btn_inzien.Click += new System.EventHandler(this.button2_Click);
+            this.btn_inzien.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button2_MouseDown);
+            this.btn_inzien.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button2_MouseUp);
             // 
-            // button3
+            // btn_teserveren
             // 
-            this.button3.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.button3.Location = new System.Drawing.Point(-27, 663);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(862, 189);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Te serveren bestellingen";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button3_MouseDown);
-            this.button3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button3_MouseUp);
+            this.btn_teserveren.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_teserveren.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_teserveren.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_teserveren.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_teserveren.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.btn_teserveren.Location = new System.Drawing.Point(-27, 663);
+            this.btn_teserveren.Name = "btn_teserveren";
+            this.btn_teserveren.Size = new System.Drawing.Size(862, 189);
+            this.btn_teserveren.TabIndex = 2;
+            this.btn_teserveren.Text = "Te serveren bestellingen";
+            this.btn_teserveren.UseVisualStyleBackColor = false;
+            this.btn_teserveren.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button3_MouseDown);
+            this.btn_teserveren.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button3_MouseUp);
             // 
-            // button4
+            // btn_wijzigen
             // 
-            this.button4.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.button4.Location = new System.Drawing.Point(-27, 474);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(862, 189);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Bestelling wijzigen";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button4_MouseDown);
-            this.button4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button4_MouseUp);
+            this.btn_wijzigen.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_wijzigen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_wijzigen.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_wijzigen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_wijzigen.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.btn_wijzigen.Location = new System.Drawing.Point(-27, 474);
+            this.btn_wijzigen.Name = "btn_wijzigen";
+            this.btn_wijzigen.Size = new System.Drawing.Size(862, 189);
+            this.btn_wijzigen.TabIndex = 3;
+            this.btn_wijzigen.Text = "Bestelling wijzigen";
+            this.btn_wijzigen.UseVisualStyleBackColor = false;
+            this.btn_wijzigen.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button4_MouseDown);
+            this.btn_wijzigen.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button4_MouseUp);
             // 
-            // button6
+            // btn_dagmenu
             // 
-            this.button6.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.button6.Location = new System.Drawing.Point(-27, 852);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(862, 189);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Dagmenu";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button6_MouseDown);
-            this.button6.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button6_MouseUp);
+            this.btn_dagmenu.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_dagmenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_dagmenu.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_dagmenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_dagmenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.btn_dagmenu.Location = new System.Drawing.Point(-27, 852);
+            this.btn_dagmenu.Name = "btn_dagmenu";
+            this.btn_dagmenu.Size = new System.Drawing.Size(862, 189);
+            this.btn_dagmenu.TabIndex = 5;
+            this.btn_dagmenu.Text = "Dagmenu";
+            this.btn_dagmenu.UseVisualStyleBackColor = false;
+            this.btn_dagmenu.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button6_MouseDown);
+            this.btn_dagmenu.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button6_MouseUp);
             // 
             // label1
             // 
@@ -142,21 +142,21 @@
             this.label3.Size = new System.Drawing.Size(0, 26);
             this.label3.TabIndex = 8;
             // 
-            // button5
+            // btn_terug
             // 
-            this.button5.AutoSize = true;
-            this.button5.BackColor = System.Drawing.Color.Crimson;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(-27, 1041);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(862, 189);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "Terug";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btn_terug.AutoSize = true;
+            this.btn_terug.BackColor = System.Drawing.Color.Crimson;
+            this.btn_terug.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_terug.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_terug.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_terug.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.btn_terug.ForeColor = System.Drawing.Color.White;
+            this.btn_terug.Location = new System.Drawing.Point(-27, 1041);
+            this.btn_terug.Name = "btn_terug";
+            this.btn_terug.Size = new System.Drawing.Size(862, 189);
+            this.btn_terug.TabIndex = 9;
+            this.btn_terug.Text = "Terug";
+            this.btn_terug.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -167,26 +167,26 @@
             this.label2.Size = new System.Drawing.Size(0, 26);
             this.label2.TabIndex = 10;
             // 
-            // Form1
+            // Hoofdmenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(800, 1204);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btn_terug);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_dagmenu);
+            this.Controls.Add(this.btn_wijzigen);
+            this.Controls.Add(this.btn_teserveren);
+            this.Controls.Add(this.btn_inzien);
+            this.Controls.Add(this.btn_opnemen);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(800, 1280);
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Hoofdmenu";
             this.Text = "Form1";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -197,15 +197,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btn_opnemen;
+        private System.Windows.Forms.Button btn_inzien;
+        private System.Windows.Forms.Button btn_teserveren;
+        private System.Windows.Forms.Button btn_wijzigen;
+        private System.Windows.Forms.Button btn_dagmenu;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btn_terug;
         private System.Windows.Forms.Label label2;
     }
 }

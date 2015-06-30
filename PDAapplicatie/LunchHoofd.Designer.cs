@@ -24,47 +24,47 @@
         /// </summary>
         private void InitializeComponent () {
             this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_hert_min = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label3 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btn_terug = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.panel2.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.btn_hert_plus = new System.Windows.Forms.Button();
+            this.btn_kabeljauw_min = new System.Windows.Forms.Button();
+            this.btn_kabeljauw_plus = new System.Windows.Forms.Button();
+            this.btn_mario = new System.Windows.Forms.Button();
+            this.btn_luigi = new System.Windows.Forms.Button();
+            this.pan_hert = new System.Windows.Forms.Panel();
+            this.lbl_hert = new System.Windows.Forms.Label();
+            this.lbl_hert_aantal = new System.Windows.Forms.Label();
+            this.pan_kabeljauw = new System.Windows.Forms.Panel();
+            this.lbl_kabeljauw_aantal = new System.Windows.Forms.Label();
+            this.lbl_kabeljauw = new System.Windows.Forms.Label();
+            this.pan_linguini = new System.Windows.Forms.Panel();
+            this.lbl_linguini_aantal = new System.Windows.Forms.Label();
+            this.lbl_linguini = new System.Windows.Forms.Label();
+            this.pan_hert.SuspendLayout();
+            this.pan_kabeljauw.SuspendLayout();
+            this.pan_linguini.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_hert_min
             // 
-            this.button1.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("MS Reference Sans Serif", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(0, 96);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(315, 315);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "-";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button1_MouseDown);
-            this.button1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
+            this.btn_hert_min.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_hert_min.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_hert_min.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_hert_min.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_hert_min.Font = new System.Drawing.Font("MS Reference Sans Serif", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_hert_min.Location = new System.Drawing.Point(0, 96);
+            this.btn_hert_min.Name = "btn_hert_min";
+            this.btn_hert_min.Size = new System.Drawing.Size(315, 315);
+            this.btn_hert_min.TabIndex = 0;
+            this.btn_hert_min.Text = "-";
+            this.btn_hert_min.UseVisualStyleBackColor = false;
+            this.btn_hert_min.Click += new System.EventHandler(this.button1_Click);
+            this.btn_hert_min.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button1_MouseDown);
+            this.btn_hert_min.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // label1
             // 
@@ -90,22 +90,22 @@
             this.label3.Size = new System.Drawing.Size(0, 26);
             this.label3.TabIndex = 8;
             // 
-            // button5
+            // btn_terug
             // 
-            this.button5.AutoSize = true;
-            this.button5.BackColor = System.Drawing.Color.Crimson;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(-27, 1041);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(862, 189);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "Terug";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btn_terug.AutoSize = true;
+            this.btn_terug.BackColor = System.Drawing.Color.Crimson;
+            this.btn_terug.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_terug.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_terug.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_terug.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.btn_terug.ForeColor = System.Drawing.Color.White;
+            this.btn_terug.Location = new System.Drawing.Point(-27, 1041);
+            this.btn_terug.Name = "btn_terug";
+            this.btn_terug.Size = new System.Drawing.Size(862, 189);
+            this.btn_terug.TabIndex = 9;
+            this.btn_terug.Text = "Terug";
+            this.btn_terug.UseVisualStyleBackColor = false;
+            this.btn_terug.Click += new System.EventHandler(this.button5_Click);
             // 
             // label2
             // 
@@ -116,173 +116,173 @@
             this.label2.Size = new System.Drawing.Size(0, 26);
             this.label2.TabIndex = 10;
             // 
-            // button3
+            // btn_hert_plus
             // 
-            this.button3.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("MS Reference Sans Serif", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(485, 96);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(315, 315);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "+";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btn_hert_plus.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_hert_plus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_hert_plus.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_hert_plus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_hert_plus.Font = new System.Drawing.Font("MS Reference Sans Serif", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_hert_plus.Location = new System.Drawing.Point(485, 96);
+            this.btn_hert_plus.Name = "btn_hert_plus";
+            this.btn_hert_plus.Size = new System.Drawing.Size(315, 315);
+            this.btn_hert_plus.TabIndex = 11;
+            this.btn_hert_plus.Text = "+";
+            this.btn_hert_plus.UseVisualStyleBackColor = false;
+            this.btn_hert_plus.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
+            // btn_kabeljauw_min
             // 
-            this.button2.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("MS Reference Sans Serif", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(0, 411);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(315, 315);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "-";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn_kabeljauw_min.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_kabeljauw_min.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_kabeljauw_min.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_kabeljauw_min.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_kabeljauw_min.Font = new System.Drawing.Font("MS Reference Sans Serif", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_kabeljauw_min.Location = new System.Drawing.Point(0, 411);
+            this.btn_kabeljauw_min.Name = "btn_kabeljauw_min";
+            this.btn_kabeljauw_min.Size = new System.Drawing.Size(315, 315);
+            this.btn_kabeljauw_min.TabIndex = 12;
+            this.btn_kabeljauw_min.Text = "-";
+            this.btn_kabeljauw_min.UseVisualStyleBackColor = false;
+            this.btn_kabeljauw_min.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button6
+            // btn_kabeljauw_plus
             // 
-            this.button6.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("MS Reference Sans Serif", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(485, 411);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(315, 315);
-            this.button6.TabIndex = 13;
-            this.button6.Text = "+";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btn_kabeljauw_plus.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_kabeljauw_plus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_kabeljauw_plus.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_kabeljauw_plus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_kabeljauw_plus.Font = new System.Drawing.Font("MS Reference Sans Serif", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_kabeljauw_plus.Location = new System.Drawing.Point(485, 411);
+            this.btn_kabeljauw_plus.Name = "btn_kabeljauw_plus";
+            this.btn_kabeljauw_plus.Size = new System.Drawing.Size(315, 315);
+            this.btn_kabeljauw_plus.TabIndex = 13;
+            this.btn_kabeljauw_plus.Text = "+";
+            this.btn_kabeljauw_plus.UseVisualStyleBackColor = false;
+            this.btn_kabeljauw_plus.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button4
+            // btn_mario
             // 
-            this.button4.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("MS Reference Sans Serif", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(485, 726);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(315, 315);
-            this.button4.TabIndex = 14;
-            this.button4.Text = "+";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btn_mario.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_mario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_mario.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_mario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_mario.Font = new System.Drawing.Font("MS Reference Sans Serif", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_mario.Location = new System.Drawing.Point(485, 726);
+            this.btn_mario.Name = "btn_mario";
+            this.btn_mario.Size = new System.Drawing.Size(315, 315);
+            this.btn_mario.TabIndex = 14;
+            this.btn_mario.Text = "+";
+            this.btn_mario.UseVisualStyleBackColor = false;
+            this.btn_mario.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button7
+            // btn_luigi
             // 
-            this.button7.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("MS Reference Sans Serif", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(0, 726);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(315, 315);
-            this.button7.TabIndex = 15;
-            this.button7.Text = "-";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.btn_luigi.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_luigi.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_luigi.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_luigi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_luigi.Font = new System.Drawing.Font("MS Reference Sans Serif", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_luigi.Location = new System.Drawing.Point(0, 726);
+            this.btn_luigi.Name = "btn_luigi";
+            this.btn_luigi.Size = new System.Drawing.Size(315, 315);
+            this.btn_luigi.TabIndex = 15;
+            this.btn_luigi.Text = "-";
+            this.btn_luigi.UseVisualStyleBackColor = false;
+            this.btn_luigi.Click += new System.EventHandler(this.button7_Click);
             // 
-            // panel2
+            // pan_hert
             // 
-            this.panel2.BackColor = System.Drawing.Color.BurlyWood;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(315, 96);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(170, 315);
-            this.panel2.TabIndex = 17;
+            this.pan_hert.BackColor = System.Drawing.Color.BurlyWood;
+            this.pan_hert.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pan_hert.Controls.Add(this.lbl_hert);
+            this.pan_hert.Controls.Add(this.lbl_hert_aantal);
+            this.pan_hert.Location = new System.Drawing.Point(315, 96);
+            this.pan_hert.Name = "pan_hert";
+            this.pan_hert.Size = new System.Drawing.Size(170, 315);
+            this.pan_hert.TabIndex = 17;
             // 
-            // label5
+            // lbl_hert
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.label5.Location = new System.Drawing.Point(6, 201);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(150, 29);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Hert stoofpot";
+            this.lbl_hert.AutoSize = true;
+            this.lbl_hert.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lbl_hert.Location = new System.Drawing.Point(6, 201);
+            this.lbl_hert.Name = "lbl_hert";
+            this.lbl_hert.Size = new System.Drawing.Size(150, 29);
+            this.lbl_hert.TabIndex = 1;
+            this.lbl_hert.Text = "Hert stoofpot";
             // 
-            // label4
+            // lbl_hert_aantal
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-            this.label4.Location = new System.Drawing.Point(56, 52);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 37);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "0x";
+            this.lbl_hert_aantal.AutoSize = true;
+            this.lbl_hert_aantal.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
+            this.lbl_hert_aantal.Location = new System.Drawing.Point(56, 52);
+            this.lbl_hert_aantal.Name = "lbl_hert_aantal";
+            this.lbl_hert_aantal.Size = new System.Drawing.Size(50, 37);
+            this.lbl_hert_aantal.TabIndex = 0;
+            this.lbl_hert_aantal.Text = "0x";
             // 
-            // panel1
+            // pan_kabeljauw
             // 
-            this.panel1.BackColor = System.Drawing.Color.BurlyWood;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Location = new System.Drawing.Point(315, 411);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(170, 315);
-            this.panel1.TabIndex = 18;
+            this.pan_kabeljauw.BackColor = System.Drawing.Color.BurlyWood;
+            this.pan_kabeljauw.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pan_kabeljauw.Controls.Add(this.lbl_kabeljauw_aantal);
+            this.pan_kabeljauw.Controls.Add(this.lbl_kabeljauw);
+            this.pan_kabeljauw.Location = new System.Drawing.Point(315, 411);
+            this.pan_kabeljauw.Name = "pan_kabeljauw";
+            this.pan_kabeljauw.Size = new System.Drawing.Size(170, 315);
+            this.pan_kabeljauw.TabIndex = 18;
             // 
-            // label8
+            // lbl_kabeljauw_aantal
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-            this.label8.Location = new System.Drawing.Point(59, 65);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(50, 37);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "0x";
+            this.lbl_kabeljauw_aantal.AutoSize = true;
+            this.lbl_kabeljauw_aantal.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
+            this.lbl_kabeljauw_aantal.Location = new System.Drawing.Point(59, 65);
+            this.lbl_kabeljauw_aantal.Name = "lbl_kabeljauw_aantal";
+            this.lbl_kabeljauw_aantal.Size = new System.Drawing.Size(50, 37);
+            this.lbl_kabeljauw_aantal.TabIndex = 3;
+            this.lbl_kabeljauw_aantal.Text = "0x";
             // 
-            // label7
+            // lbl_kabeljauw
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label7.Location = new System.Drawing.Point(28, 204);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(113, 26);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "Kabeljauw";
+            this.lbl_kabeljauw.AutoSize = true;
+            this.lbl_kabeljauw.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.lbl_kabeljauw.Location = new System.Drawing.Point(28, 204);
+            this.lbl_kabeljauw.Name = "lbl_kabeljauw";
+            this.lbl_kabeljauw.Size = new System.Drawing.Size(113, 26);
+            this.lbl_kabeljauw.TabIndex = 3;
+            this.lbl_kabeljauw.Text = "Kabeljauw";
             // 
-            // panel3
+            // pan_linguini
             // 
-            this.panel3.BackColor = System.Drawing.Color.BurlyWood;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.label9);
-            this.panel3.Location = new System.Drawing.Point(315, 726);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(170, 315);
-            this.panel3.TabIndex = 19;
+            this.pan_linguini.BackColor = System.Drawing.Color.BurlyWood;
+            this.pan_linguini.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pan_linguini.Controls.Add(this.lbl_linguini_aantal);
+            this.pan_linguini.Controls.Add(this.lbl_linguini);
+            this.pan_linguini.Location = new System.Drawing.Point(315, 726);
+            this.pan_linguini.Name = "pan_linguini";
+            this.pan_linguini.Size = new System.Drawing.Size(170, 315);
+            this.pan_linguini.TabIndex = 19;
             // 
-            // label6
+            // lbl_linguini_aantal
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-            this.label6.Location = new System.Drawing.Point(56, 42);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 37);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "0x";
+            this.lbl_linguini_aantal.AutoSize = true;
+            this.lbl_linguini_aantal.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
+            this.lbl_linguini_aantal.Location = new System.Drawing.Point(56, 42);
+            this.lbl_linguini_aantal.Name = "lbl_linguini_aantal";
+            this.lbl_linguini_aantal.Size = new System.Drawing.Size(50, 37);
+            this.lbl_linguini_aantal.TabIndex = 2;
+            this.lbl_linguini_aantal.Text = "0x";
             // 
-            // label9
+            // lbl_linguini
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label9.Location = new System.Drawing.Point(38, 204);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(87, 26);
-            this.label9.TabIndex = 5;
-            this.label9.Text = "Linguini";
+            this.lbl_linguini.AutoSize = true;
+            this.lbl_linguini.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.lbl_linguini.Location = new System.Drawing.Point(38, 204);
+            this.lbl_linguini.Name = "lbl_linguini";
+            this.lbl_linguini.Size = new System.Drawing.Size(87, 26);
+            this.lbl_linguini.TabIndex = 5;
+            this.lbl_linguini.Text = "Linguini";
             // 
             // LunchHoofd
             // 
@@ -290,19 +290,19 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(800, 1204);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.pan_linguini);
+            this.Controls.Add(this.pan_kabeljauw);
+            this.Controls.Add(this.pan_hert);
+            this.Controls.Add(this.btn_luigi);
+            this.Controls.Add(this.btn_mario);
+            this.Controls.Add(this.btn_kabeljauw_plus);
+            this.Controls.Add(this.btn_kabeljauw_min);
+            this.Controls.Add(this.btn_hert_plus);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btn_terug);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_hert_min);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(800, 1280);
@@ -311,12 +311,12 @@
             this.Text = "Form1";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.pan_hert.ResumeLayout(false);
+            this.pan_hert.PerformLayout();
+            this.pan_kabeljauw.ResumeLayout(false);
+            this.pan_kabeljauw.PerformLayout();
+            this.pan_linguini.ResumeLayout(false);
+            this.pan_linguini.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -324,25 +324,25 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_hert_min;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btn_terug;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button btn_hert_plus;
+        private System.Windows.Forms.Button btn_kabeljauw_min;
+        private System.Windows.Forms.Button btn_kabeljauw_plus;
+        private System.Windows.Forms.Button btn_mario;
+        private System.Windows.Forms.Button btn_luigi;
+        private System.Windows.Forms.Panel pan_hert;
+        private System.Windows.Forms.Label lbl_hert;
+        private System.Windows.Forms.Label lbl_hert_aantal;
+        private System.Windows.Forms.Panel pan_kabeljauw;
+        private System.Windows.Forms.Label lbl_kabeljauw_aantal;
+        private System.Windows.Forms.Label lbl_kabeljauw;
+        private System.Windows.Forms.Panel pan_linguini;
+        private System.Windows.Forms.Label lbl_linguini_aantal;
+        private System.Windows.Forms.Label lbl_linguini;
     }
 }

@@ -31,44 +31,44 @@ namespace PDAapplicatie {
         }
 
         private void button1_MouseDown (object sender, MouseEventArgs e) {
-            button1.BackColor = Color.BurlyWood;
+            btn_opnemen.BackColor = Color.BurlyWood;
 
         }
 
         private void button1_MouseUp (object sender, MouseEventArgs e) {
-            button1.BackColor = Color.LemonChiffon;
+            btn_opnemen.BackColor = Color.LemonChiffon;
         }
 
         private void button2_MouseDown (object sender, MouseEventArgs e) {
-            button2.BackColor = Color.BurlyWood;
+            btn_inzien.BackColor = Color.BurlyWood;
         }
 
         private void button2_MouseUp (object sender, MouseEventArgs e) {
-            button2.BackColor = Color.LemonChiffon;
+            btn_inzien.BackColor = Color.LemonChiffon;
         }
 
         private void button4_MouseDown (object sender, MouseEventArgs e) {
-            button4.BackColor = Color.BurlyWood;
+            btn_wijzigen.BackColor = Color.BurlyWood;
         }
 
         private void button4_MouseUp (object sender, MouseEventArgs e) {
-            button4.BackColor = Color.LemonChiffon;
+            btn_wijzigen.BackColor = Color.LemonChiffon;
         }
 
         private void button3_MouseDown (object sender, MouseEventArgs e) {
-            button3.BackColor = Color.BurlyWood;
+            btn_teserveren.BackColor = Color.BurlyWood;
         }
 
         private void button3_MouseUp (object sender, MouseEventArgs e) {
-            button3.BackColor = Color.LemonChiffon;
+            btn_teserveren.BackColor = Color.LemonChiffon;
         }
 
         private void button6_MouseDown (object sender, MouseEventArgs e) {
-            button6.BackColor = Color.BurlyWood;
+            btn_dagmenu.BackColor = Color.BurlyWood;
         }
 
         private void button6_MouseUp (object sender, MouseEventArgs e) {
-            button6.BackColor = Color.LemonChiffon;
+            btn_dagmenu.BackColor = Color.LemonChiffon;
         }
 
         private void button2_Click (object sender, EventArgs e) {

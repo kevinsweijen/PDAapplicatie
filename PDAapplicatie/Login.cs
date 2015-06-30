@@ -34,58 +34,58 @@ namespace PDAapplicatie {
 
         private void button6_Click (object sender, EventArgs e) {
             login += "5";
-            textBox1.Text += "*";
+            txtbox_pincode.Text += "*";
         }
 
         private void button1_Click (object sender, EventArgs e) {
             login += "1";
-            textBox1.Text += "*";
+            txtbox_pincode.Text += "*";
         }
 
         private void button3_Click (object sender, EventArgs e) {
             login += "2";
-            textBox1.Text += "*";
+            txtbox_pincode.Text += "*";
         }
 
         private void button13_Click (object sender, EventArgs e) {
             login += "4";
-            textBox1.Text += "*";
+            txtbox_pincode.Text += "*";
         }
 
         private void button12_Click (object sender, EventArgs e) {
             login += "6";
-            textBox1.Text += "*";
+            txtbox_pincode.Text += "*";
         }
 
         private void button10_Click (object sender, EventArgs e) {
             login += "7";
-            textBox1.Text += "*";
+            txtbox_pincode.Text += "*";
         }
 
         private void button4_Click (object sender, EventArgs e) {
             login += "8";
-            textBox1.Text += "*";
+            txtbox_pincode.Text += "*";
         }
 
         private void button11_Click (object sender, EventArgs e) {
             login += "9";
-            textBox1.Text += "*";
+            txtbox_pincode.Text += "*";
         }
 
         private void button8_Click (object sender, EventArgs e) {
             login += "0";
-            textBox1.Text += "*";
+            txtbox_pincode.Text += "*";
         }
 
         private void button2_Click (object sender, EventArgs e) {
             login += "3";
-            textBox1.Text += "*";
+            txtbox_pincode.Text += "*";
         }
 
         private void button7_Click (object sender, EventArgs e) {
             if (login.Length > 0) {
                 login = login.Remove(login.Length - 1);
-                textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1);
+                txtbox_pincode.Text = txtbox_pincode.Text.Remove(txtbox_pincode.Text.Length - 1);
             }
         }
 
@@ -100,9 +100,9 @@ namespace PDAapplicatie {
                 form.Show ();
                 this.Hide ();
             } else {
-                textBox1.Text = "";
+                txtbox_pincode.Text = "";
                 login = "";
-                textBox1.BackColor = Color.Crimson;
+                txtbox_pincode.BackColor = Color.Crimson;
             }
         }
     }

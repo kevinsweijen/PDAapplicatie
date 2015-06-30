@@ -24,7 +24,7 @@
         /// </summary>
         private void InitializeComponent () {
             this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_ = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -38,22 +38,22 @@
             this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_
             // 
-            this.button1.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.button1.Location = new System.Drawing.Point(-27, 96);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(862, 189);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Lunch";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button1_MouseDown);
-            this.button1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
+            this.btn_.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.btn_.Location = new System.Drawing.Point(-27, 96);
+            this.btn_.Name = "btn_";
+            this.btn_.Size = new System.Drawing.Size(862, 189);
+            this.btn_.TabIndex = 0;
+            this.btn_.Text = "Lunch";
+            this.btn_.UseVisualStyleBackColor = false;
+            this.btn_.Click += new System.EventHandler(this.button1_Click);
+            this.btn_.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button1_MouseDown);
+            this.btn_.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // button2
             // 
@@ -198,7 +198,7 @@
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
-            // Form2
+            // Bestellen
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
@@ -214,12 +214,12 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(800, 1280);
             this.MinimizeBox = false;
-            this.Name = "Form2";
+            this.Name = "Bestellen";
             this.Text = "Form1";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -230,7 +230,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;

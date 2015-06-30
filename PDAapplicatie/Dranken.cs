@@ -33,28 +33,28 @@ namespace PDAapplicatie {
         }
         // Hoi ik ben een comment
         private void button1_MouseDown (object sender, MouseEventArgs e) {
-            button1.BackColor = Color.BurlyWood;
+            btn_fris.BackColor = Color.BurlyWood;
 
         }
 
         private void button1_MouseUp (object sender, MouseEventArgs e) {
-            button1.BackColor = Color.LemonChiffon;
+            btn_fris.BackColor = Color.LemonChiffon;
         }
 
         private void button2_MouseDown (object sender, MouseEventArgs e) {
-            button2.BackColor = Color.BurlyWood;
+            btn_gedistilleerd.BackColor = Color.BurlyWood;
         }
 
         private void button2_MouseUp (object sender, MouseEventArgs e) {
-            button2.BackColor = Color.LemonChiffon;
+            btn_gedistilleerd.BackColor = Color.LemonChiffon;
         }
 
         private void button4_MouseDown (object sender, MouseEventArgs e) {
-            button4.BackColor = Color.BurlyWood;
+            btn_koffieEnThee.BackColor = Color.BurlyWood;
         }
 
         private void button4_MouseUp (object sender, MouseEventArgs e) {
-            button4.BackColor = Color.LemonChiffon;
+            btn_koffieEnThee.BackColor = Color.LemonChiffon;
         }
 
         private void button2_Click (object sender, EventArgs e) {

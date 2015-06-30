@@ -40,12 +40,12 @@ namespace PDAapplicatie {
         }
 
         private void button1_MouseDown (object sender, MouseEventArgs e) {
-            button1.BackColor = Color.BurlyWood;
+            btn_.BackColor = Color.BurlyWood;
 
         }
 
         private void button1_MouseUp (object sender, MouseEventArgs e) {
-            button1.BackColor = Color.LemonChiffon;
+            btn_.BackColor = Color.LemonChiffon;
         }
 
         private void button2_MouseDown (object sender, MouseEventArgs e) {
