@@ -29,7 +29,7 @@ namespace PDAapplicatie {
             label3.Text = ( SystemInformation.PowerStatus.BatteryLifePercent * 100 ) + "%";
 
             Tafelbezet[] klaar = db.TafelsKlaar();
-            Button[] buttons = {button2, button3, button4, button5, button6, button7, button8, button9, button10, button11};
+            Button[] buttons = {btn_tafel1, btn_tafel2, btn_tafel3, btn_tafel4, btn_tafel5, btn_tafel6, btn_tafel7, btn_tafel8, btn_tafel9, btn_tafel10};
 
             for (int i = 0; i < klaar.Length; i++)
             {
