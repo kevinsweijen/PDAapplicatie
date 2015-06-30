@@ -25,4 +25,10 @@ C:\Users\kevin\Documents\Visual Studio 2013\Projects\PDAapplicatie\PDAapplicatie
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\PDAapplicatie\PDAapplicatie\obj\Debug\PDAapplicatie.Login.resources
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\PDAapplicatie\PDAapplicatie\obj\Debug\PDAapplicatie.SterkeDrank.resources
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\PDAapplicatie\PDAapplicatie\obj\Debug\PDAapplicatie.Openstaand.resources
+<<<<<<< HEAD
+D:\Users\Dries\Documents\Visual Studio 2013\Projects\PDAapplicatie\PDAapplicatie\bin\Debug\PDAapplicatie.exe.config
+D:\Users\Dries\Documents\Visual Studio 2013\Projects\PDAapplicatie\PDAapplicatie\obj\Debug\PDAapplicatie.exe
+D:\Users\Dries\Documents\Visual Studio 2013\Projects\PDAapplicatie\PDAapplicatie\obj\Debug\PDAapplicatie.pdb
+=======
 C:\Users\kevin\Documents\Visual Studio 2013\Projects\PDAapplicatie\PDAapplicatie\obj\Debug\PDAapplicatie.KoffieThee.resources
+>>>>>>> fb589145d5e15ef06b0a81e56fe7b4f1055e92fe

@@ -34,54 +34,54 @@ namespace PDAapplicatie {
             for(int i = 0; i < bezet.Length; i++){
                     switch (i) {
                         case 0:
-                            button2.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
-                            if (button2.BackColor == Color.IndianRed) break;
-                            button2.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
+                            btn_tafel1.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
+                            if (btn_tafel1.BackColor == Color.IndianRed) break;
+                            btn_tafel1.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
                             break;
                         case 1:
-                            button3.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
-                            if (button3.BackColor == Color.IndianRed) break;
-                            button3.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
+                            btn_tafel2.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
+                            if (btn_tafel2.BackColor == Color.IndianRed) break;
+                            btn_tafel2.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
                             break;
                         case 2:
-                            button4.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
-                            if (button4.BackColor == Color.IndianRed) break;
-                            button4.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
+                            btn_tafel3.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
+                            if (btn_tafel3.BackColor == Color.IndianRed) break;
+                            btn_tafel3.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
                             break;
                         case 3:
-                            button5.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
-                            if (button5.BackColor == Color.IndianRed) break;
-                            button5.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
+                            btn_tafel4.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
+                            if (btn_tafel4.BackColor == Color.IndianRed) break;
+                            btn_tafel4.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
                             break;
                         case 4:
-                            button6.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
-                            if (button6.BackColor == Color.IndianRed) break;
-                            button6.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
+                            btn_tafel5.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
+                            if (btn_tafel5.BackColor == Color.IndianRed) break;
+                            btn_tafel5.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
                             break;
                         case 5:
-                            button7.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
-                            if (button7.BackColor == Color.IndianRed) break;
-                            button7.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
+                            btn_tafel6.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
+                            if (btn_tafel6.BackColor == Color.IndianRed) break;
+                            btn_tafel6.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
                             break;
                         case 6:
-                            button8.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
-                            if (button8.BackColor == Color.IndianRed) break;
-                            button8.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
+                            btn_tafel7.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
+                            if (btn_tafel7.BackColor == Color.IndianRed) break;
+                            btn_tafel7.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
                             break;
                         case 7:
-                            button9.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
-                            if (button9.BackColor == Color.IndianRed) break;
-                            button9.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
+                            btn_tafel8.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
+                            if (btn_tafel8.BackColor == Color.IndianRed) break;
+                            btn_tafel8.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
                             break;
                         case 8:
-                            button10.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
-                            if (button10.BackColor == Color.IndianRed) break;
-                            button10.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
+                            btn_tafel9.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
+                            if (btn_tafel9.BackColor == Color.IndianRed) break;
+                            btn_tafel9.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
                             break;
                         case 9:
-                            button11.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
-                            if (button11.BackColor == Color.IndianRed) break;
-                            button11.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
+                            btn_tafel10.BackColor = bezet[i].bezet ? Color.IndianRed : Color.DarkKhaki;
+                            if (btn_tafel10.BackColor == Color.IndianRed) break;
+                            btn_tafel10.BackColor = gereserveerd[i].bezet ? Color.DeepSkyBlue : Color.DarkKhaki;
                             break;
                     }
                 }
