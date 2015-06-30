@@ -35,7 +35,7 @@ namespace PDAapplicatie {
         private void button1_Click (object sender, EventArgs e) {
             if (een == 0) return;
             een--;
-            label4.Text = een + "x";
+            lbl_glaswit_count.Text = een + "x";
             wrd.Bestelling.RemoveAll (product => product.id == 32);
             for (int x = 0; x < een; x++) {
                 wrd.Bestelling.Add (new Product { id = 32, prijs = 6.50 });
@@ -43,12 +43,12 @@ namespace PDAapplicatie {
         }
         // Hoi ik ben een comment
         private void button1_MouseDown (object sender, MouseEventArgs e) {
-            button1.BackColor = Color.BurlyWood;
+            btn_glaswit_min.BackColor = Color.BurlyWood;
 
         }
 
         private void button1_MouseUp (object sender, MouseEventArgs e) {
-            button1.BackColor = Color.LemonChiffon;
+            btn_glaswit_min.BackColor = Color.LemonChiffon;
         }
 
         private void label1_Click (object sender, EventArgs e) {
@@ -72,7 +72,7 @@ namespace PDAapplicatie {
             } else {
                 een++;
             }
-            label4.Text = een + "x";
+            lbl_glaswit_count.Text = een + "x";
             wrd.Bestelling.Add (new Product { id = 32, prijs = 6.50 });
         }
 
@@ -85,14 +85,14 @@ namespace PDAapplicatie {
             } else {
                 twee++;
             }
-            label8.Text = twee + "x";
+            lbl_fleswit_count.Text = twee + "x";
             wrd.Bestelling.Add (new Product { id = 31, prijs = 28.50 });
         }
 
         private void button2_Click (object sender, EventArgs e) {
             if (twee == 0) return;
             twee--;
-            label8.Text = twee + "x";
+            lbl_fleswit_count.Text = twee + "x";
             wrd.Bestelling.RemoveAll (product => product.id == 31);
             for (int x = 0; x < twee; x++) {
                 wrd.Bestelling.Add (new Product { id = 31, prijs = 28.50 });
@@ -111,7 +111,7 @@ namespace PDAapplicatie {
         private void button9_Click (object sender, EventArgs e) {
             if (drie == 0) return;
             drie--;
-            label11.Text = drie + "x";
+            lbl_glasrood_count.Text = drie + "x";
             wrd.Bestelling.RemoveAll (product => product.id == 34);
             for (int x = 0; x < drie; x++) {
                 wrd.Bestelling.Add (new Product { id = 34, prijs = 7.50 });
@@ -128,14 +128,14 @@ namespace PDAapplicatie {
             } else {
                 drie++;
             }
-            label11.Text = drie + "x";
+            lbl_glasrood_count.Text = drie + "x";
             wrd.Bestelling.Add (new Product { id = 34, prijs = 7.50 });
         }
 
         private void button7_Click_1 (object sender, EventArgs e) {
             if (vier == 0) return;
             vier--;
-            label6.Text = vier + "x";
+            lbl_flesrood_count.Text = vier + "x";
             wrd.Bestelling.RemoveAll (product => product.id == 33);
             for (int x = 0; x < vier; x++) {
                 wrd.Bestelling.Add (new Product { id = 33, prijs = 32.00 });
@@ -152,14 +152,14 @@ namespace PDAapplicatie {
             } else {
                 vier++;
             }
-            label6.Text = vier + "x";
+            lbl_flesrood_count.Text = vier + "x";
             wrd.Bestelling.Add (new Product { id = 33, prijs = 32.00 });
         }
 
         private void button13_Click (object sender, EventArgs e) {
             if (vijf == 0) return;
             vijf--;
-            label15.Text = vijf + "x";
+            lbl_champagne_count.Text = vijf + "x";
             wrd.Bestelling.RemoveAll (product => product.id == 35);
             for (int x = 0; x < vijf; x++) {
                 wrd.Bestelling.Add (new Product { id = 35, prijs = 50.00});
@@ -176,7 +176,7 @@ namespace PDAapplicatie {
             } else {
                 vijf++;
             }
-            label15.Text = vijf + "x";
+            lbl_champagne_count.Text = vijf + "x";
             wrd.Bestelling.Add (new Product { id = 35, prijs = 50.00 });
         }
 
