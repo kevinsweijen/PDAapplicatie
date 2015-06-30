@@ -58,7 +58,7 @@ namespace PDAapplicatie {
         }
 
         private void button2_Click (object sender, EventArgs e) {
-            var form = new LunchHoofd (wrd, naam) {
+            var form = new DinerHoofd (wrd, naam) {
                 Location = this.Location,
                 StartPosition = this.StartPosition
             };

@@ -181,6 +181,9 @@
     <Compile Include="Wijzigen.Designer.cs">
       <DependentUpon>Wijzigen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="KoffieThee.resx">
+      <DependentUpon>KoffieThee.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LunchBestellen.resx">
       <DependentUpon>LunchBestellen.cs</DependentUpon>
     </EmbeddedResource>

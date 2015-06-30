@@ -49,6 +49,7 @@ namespace PDAapplicatie {
             double prijs = 0;
             int nummer = wrd.Tafelnummer;
             OleDbConnection conn = new OleDbConnection(connString);
+            conn.Open();
             OleDbCommand command = new OleDbCommand();
             foreach (Product p in bestelling) {
                 prijs += p.prijs;
@@ -57,8 +58,9 @@ namespace PDAapplicatie {
                 command = new OleDbCommand(sql, conn);
                 command.ExecuteNonQuery();
             }
-            command.CommandText =
+            string SQL =
                 string.Format("UPDATE Bestelling SET Prijs='{0}' WHERE Status='Bezet' AND Tafel = '{1}'", prijs, nummer);
+            command = new OleDbCommand(SQL, conn);
             command.ExecuteNonQuery();
             conn.Close();
         }
@@ -128,22 +130,22 @@ namespace PDAapplicatie {
             return tafelbezet;
         }
 
-        public string Prijs(int nummer) {
+        public double Prijs(int nummer) {
             OleDbConnection conn = new OleDbConnection(connString);
             conn.Open();
-            OleDbCommand command = new OleDbCommand(string.Format("SELECT Prijs FROM Bestelling WHERE Status='Bezet' AND Tafel='{0}'", nummer), conn);
-            double Prijs = (double) command.ExecuteScalar();
-            return Prijs.ToString("####0.00");
+            OleDbCommand command = new OleDbCommand(string.Format("SELECT Prijs FROM Bestelling WHERE Bestelnummer ={0}", nummer), conn);
+            double Prijs = Convert.ToDouble(command.ExecuteScalar());
+            return Prijs;
         }
 
-        public List<Product> GetProuctenByTafelNumber(int tafelNummer)
+        public List<Product> GetProuctenByBestelNumber(int bestelNummer)
         {
             List<Product> products = new List<Product> { };
 
             OleDbConnection conn = new OleDbConnection(connString);
             conn.Open();
 
-            OleDbCommand command = new OleDbCommand(string.Format("SELECT `Product ID` FROM Bestelling b JOIN Bevat be ON b.Tafel=be.`Product ID`  WHERE Tafel='{0}' AND Status='In behandeling' ", tafelNummer), conn);
+            OleDbCommand command = new OleDbCommand(string.Format("SELECT `Product ID` FROM Bestelling b JOIN Bevat be ON b.Tafel=be.`Product ID`  WHERE Bestelnummer={0} ", bestelNummer), conn);
             try
             {
                 //bestelNummer = (int) command.ExecuteScalar();

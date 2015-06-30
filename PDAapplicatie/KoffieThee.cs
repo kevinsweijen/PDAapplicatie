@@ -12,9 +12,10 @@ using System.Windows.Forms;
 namespace PDAapplicatie {
     public partial class KoffieThee: Form {
         public string naam;
-        private int top = 0;
-        private int mid = 0;
-        private int bot = 0;
+        private int een = 0;
+        private int twee = 0;
+        private int vier = 0;
+        private int vijf = 0;
         private DbHandeler db;
         public Waarden wrd;
         public KoffieThee () {
@@ -30,12 +31,12 @@ namespace PDAapplicatie {
         }
 
         private void button1_Click (object sender, EventArgs e) {
-            if (top == 0) return;
-            top--;
-            label4.Text = top + "x";
-            wrd.Bestelling.RemoveAll (product => product.id == 1);
-            for (int x = 0; x < top; x++) {
-                wrd.Bestelling.Add (new Product { id = 1, prijs = 7.00 });
+            if (een == 0) return;
+            een--;
+            label4.Text = een + "x";
+            wrd.Bestelling.RemoveAll (product => product.id == 42);
+            for (int x = 0; x < een; x++) {
+                wrd.Bestelling.Add (new Product { id = 42, prijs = 3.00 });
             }
         }
         // Hoi ik ben een comment
@@ -61,71 +62,96 @@ namespace PDAapplicatie {
         }
 
         private void button3_Click (object sender, EventArgs e) {
-            int max = db.Voorraad (1);
-            if (top == max) {
+            int max = db.Voorraad (42);
+            if (een == max) {
                 return;
-            } else if (top > max) {
-                top = max;
+            } else if (een > max) {
+                een = max;
             } else {
-                top++;
+                een++;
             }
-            label4.Text = top + "x";
-            wrd.Bestelling.Add (new Product { id = 1, prijs = 7.00 });
+            label4.Text = een + "x";
+            wrd.Bestelling.Add (new Product { id = 42, prijs = 3.00 });
         }
 
         private void button6_Click (object sender, EventArgs e) {
-            int max = db.Voorraad (2);
-            if (mid == max) {
+            int max = db.Voorraad (43);
+            if (twee == max) {
                 return;
-            } else if (mid > max) {
-                mid = max;
+            } else if (twee > max) {
+                twee = max;
             } else {
-                mid++;
+                twee++;
             }
-            label8.Text = mid + "x";
-            wrd.Bestelling.Add (new Product { id = 2, prijs = 8.50 });
+            label8.Text = twee + "x";
+            wrd.Bestelling.Add (new Product { id = 43, prijs = 4.50 });
         }
 
         private void button2_Click (object sender, EventArgs e) {
-            if (mid == 0) return;
-            mid--;
-            label8.Text = mid + "x";
-            wrd.Bestelling.RemoveAll (product => product.id == 2);
-            for (int x = 0; x < mid; x++) {
-                wrd.Bestelling.Add (new Product { id = 2, prijs = 8.50 });
+            if (twee == 0) return;
+            twee--;
+            label8.Text = twee + "x";
+            wrd.Bestelling.RemoveAll (product => product.id == 43);
+            for (int x = 0; x < twee; x++) {
+                wrd.Bestelling.Add (new Product { id = 43, prijs = 4.50 });
             }
-        }
-
-        private void button7_Click (object sender, EventArgs e) {
-            if (bot == 0) return;
-            bot--;
-            label6.Text = bot + "x";
-            wrd.Bestelling.RemoveAll (product => product.id == 3);
-            for (int x = 0; x < mid; x++) {
-                wrd.Bestelling.Add (new Product { id = 3, prijs = 6.50 });
-            }
-        }
-
-        private void button4_Click (object sender, EventArgs e) {
-            int max = db.Voorraad (3);
-            if (bot == max) {
-                return;
-            } else if (bot > max) {
-                bot = max;
-            } else {
-                bot++;
-            }
-            label6.Text = bot + "x";
-            wrd.Bestelling.Add (new Product { id = 3, prijs = 6.50 });
         }
 
         private void button5_Click (object sender, EventArgs e) {
-            var form = new LunchBestellen (wrd, naam) {
+            var form = new Dranken (wrd, naam) {
                 Location = this.Location,
                 StartPosition = this.StartPosition
             };
             form.Show ();
             this.Hide ();
+        }
+
+        private void button7_Click_1 (object sender, EventArgs e) {
+            if (vier == 0) return;
+            vier--;
+            label6.Text = vier + "x";
+            wrd.Bestelling.RemoveAll (product => product.id == 44);
+            for (int x = 0; x < vier; x++) {
+                wrd.Bestelling.Add (new Product { id = 44, prijs = 4.00 });
+
+            }
+        }
+
+        private void button4_Click_1 (object sender, EventArgs e) {
+            int max = db.Voorraad (44);
+            if (vier == max) {
+                return;
+            } else if (vier > max) {
+                vier = max;
+            } else {
+                vier++;
+            }
+            label6.Text = vier + "x";
+            wrd.Bestelling.Add (new Product { id = 44, prijs = 4.00 });
+        }
+
+        private void button13_Click (object sender, EventArgs e) {
+            if (vijf == 0) return;
+            vijf--;
+            label15.Text = vijf + "x";
+            wrd.Bestelling.RemoveAll (product => product.id == 45);
+            for (int x = 0; x < vijf; x++) {
+                wrd.Bestelling.Add (new Product { id = 45, prijs = 4.50 });
+
+            }
+        }
+
+        private void button12_Click (object sender, EventArgs e) {
+            int max = db.Voorraad (45);
+            if (vijf == max) {
+                return;
+            } else if (vijf > max) {
+                vijf = max;
+            } else {
+                vijf++;
+            }
+            label15.Text = vijf + "x";
+            wrd.Bestelling.Add (new Product { id = 45, prijs = 4.50 });
         }
     }
 }
