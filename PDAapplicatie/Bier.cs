@@ -33,7 +33,7 @@ namespace PDAapplicatie {
         private void button1_Click (object sender, EventArgs e) {
             if (een == 0) return;
             een--;
-            label4.Text = een + "x";
+            lbl_hertog_count.Text = een + "x";
             wrd.Bestelling.RemoveAll (product => product.id == 27);
             for (int x = 0; x < een; x++) {
                 wrd.Bestelling.Add (new Product { id = 27, prijs = 3.00 });
@@ -41,12 +41,12 @@ namespace PDAapplicatie {
         }
         // Hoi ik ben een comment
         private void button1_MouseDown (object sender, MouseEventArgs e) {
-            button1.BackColor = Color.BurlyWood;
+            btn_hertog_min.BackColor = Color.BurlyWood;
 
         }
 
         private void button1_MouseUp (object sender, MouseEventArgs e) {
-            button1.BackColor = Color.LemonChiffon;
+            btn_hertog_min.BackColor = Color.LemonChiffon;
         }
 
         private void label1_Click (object sender, EventArgs e) {
@@ -70,7 +70,7 @@ namespace PDAapplicatie {
             } else {
                 een++;
             }
-            label4.Text = een + "x";
+            lbl_hertog_count.Text = een + "x";
             wrd.Bestelling.Add (new Product { id = 27, prijs = 3.00 });
         }
 
@@ -83,14 +83,14 @@ namespace PDAapplicatie {
             } else {
                 twee++;
             }
-            label8.Text = twee + "x";
+            lbl_duvel_count.Text = twee + "x";
             wrd.Bestelling.Add (new Product { id = 28, prijs = 4.50 });
         }
 
         private void button2_Click (object sender, EventArgs e) {
             if (twee == 0) return;
             twee--;
-            label8.Text = twee + "x";
+            lbl_duvel_count.Text = twee + "x";
             wrd.Bestelling.RemoveAll (product => product.id == 28);
             for (int x = 0; x < twee; x++) {
                 wrd.Bestelling.Add (new Product { id = 28, prijs = 4.50 });
@@ -109,7 +109,7 @@ namespace PDAapplicatie {
         private void button7_Click_1 (object sender, EventArgs e) {
             if (vier == 0) return;
             vier--;
-            label6.Text = vier + "x";
+            lbl_kriek_count.Text = vier + "x";
             wrd.Bestelling.RemoveAll (product => product.id == 29);
             for (int x = 0; x < vier; x++) {
                 wrd.Bestelling.Add (new Product { id = 29, prijs = 4.00 });
@@ -126,14 +126,14 @@ namespace PDAapplicatie {
             } else {
                 vier++;
             }
-            label6.Text = vier + "x";
+            lbl_kriek_count.Text = vier + "x";
             wrd.Bestelling.Add (new Product { id = 29, prijs = 4.00 });
         }
 
         private void button13_Click (object sender, EventArgs e) {
             if (vijf == 0) return;
             vijf--;
-            label15.Text = vijf + "x";
+            lbl_leffe_count.Text = vijf + "x";
             wrd.Bestelling.RemoveAll (product => product.id == 30);
             for (int x = 0; x < vijf; x++) {
                 wrd.Bestelling.Add (new Product { id = 30, prijs = 4.50 });
@@ -150,7 +150,7 @@ namespace PDAapplicatie {
             } else {
                 vijf++;
             }
-            label15.Text = vijf + "x";
+            lbl_leffe_count.Text = vijf + "x";
             wrd.Bestelling.Add (new Product { id = 30, prijs = 4.50 });
         }
     }

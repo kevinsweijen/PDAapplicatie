@@ -24,53 +24,53 @@
         /// </summary>
         private void InitializeComponent () {
             this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_hertog_min = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label3 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btn_terug = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btn_hertog_plus = new System.Windows.Forms.Button();
+            this.btn_duvel_min = new System.Windows.Forms.Button();
+            this.btn_duvel_plus = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lbl_hertog_jan = new System.Windows.Forms.Label();
+            this.lbl_hertog_count = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lbl_duvel_count = new System.Windows.Forms.Label();
+            this.lbl_duvel = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.lbl_kriek_count = new System.Windows.Forms.Label();
+            this.lbl_kriek = new System.Windows.Forms.Label();
+            this.btn_kriek_plus = new System.Windows.Forms.Button();
+            this.btn_kriek_min = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
+            this.lbl_leffe = new System.Windows.Forms.Label();
+            this.lbl_leffe_count = new System.Windows.Forms.Label();
+            this.lbl_leffe_plus = new System.Windows.Forms.Button();
+            this.btn_leffe_min = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_hertog_min
             // 
-            this.button1.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
-            this.button1.Location = new System.Drawing.Point(0, 98);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(315, 236);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "-";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button1_MouseDown);
-            this.button1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
+            this.btn_hertog_min.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_hertog_min.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_hertog_min.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_hertog_min.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_hertog_min.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
+            this.btn_hertog_min.Location = new System.Drawing.Point(0, 98);
+            this.btn_hertog_min.Name = "btn_hertog_min";
+            this.btn_hertog_min.Size = new System.Drawing.Size(315, 236);
+            this.btn_hertog_min.TabIndex = 0;
+            this.btn_hertog_min.Text = "-";
+            this.btn_hertog_min.UseVisualStyleBackColor = false;
+            this.btn_hertog_min.Click += new System.EventHandler(this.button1_Click);
+            this.btn_hertog_min.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button1_MouseDown);
+            this.btn_hertog_min.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // label1
             // 
@@ -96,22 +96,22 @@
             this.label3.Size = new System.Drawing.Size(0, 26);
             this.label3.TabIndex = 8;
             // 
-            // button5
+            // btn_terug
             // 
-            this.button5.AutoSize = true;
-            this.button5.BackColor = System.Drawing.Color.Crimson;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(-27, 1041);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(862, 189);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "Terug";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btn_terug.AutoSize = true;
+            this.btn_terug.BackColor = System.Drawing.Color.Crimson;
+            this.btn_terug.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_terug.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_terug.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_terug.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.btn_terug.ForeColor = System.Drawing.Color.White;
+            this.btn_terug.Location = new System.Drawing.Point(-27, 1041);
+            this.btn_terug.Name = "btn_terug";
+            this.btn_terug.Size = new System.Drawing.Size(862, 189);
+            this.btn_terug.TabIndex = 9;
+            this.btn_terug.Text = "Terug";
+            this.btn_terug.UseVisualStyleBackColor = false;
+            this.btn_terug.Click += new System.EventHandler(this.button5_Click);
             // 
             // label2
             // 
@@ -122,234 +122,234 @@
             this.label2.Size = new System.Drawing.Size(0, 26);
             this.label2.TabIndex = 10;
             // 
-            // button3
+            // btn_hertog_plus
             // 
-            this.button3.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
-            this.button3.Location = new System.Drawing.Point(485, 98);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(315, 236);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "+";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btn_hertog_plus.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_hertog_plus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_hertog_plus.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_hertog_plus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_hertog_plus.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
+            this.btn_hertog_plus.Location = new System.Drawing.Point(485, 98);
+            this.btn_hertog_plus.Name = "btn_hertog_plus";
+            this.btn_hertog_plus.Size = new System.Drawing.Size(315, 236);
+            this.btn_hertog_plus.TabIndex = 11;
+            this.btn_hertog_plus.Text = "+";
+            this.btn_hertog_plus.UseVisualStyleBackColor = false;
+            this.btn_hertog_plus.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
+            // btn_duvel_min
             // 
-            this.button2.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
-            this.button2.Location = new System.Drawing.Point(0, 334);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(315, 236);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "-";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn_duvel_min.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_duvel_min.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_duvel_min.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_duvel_min.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_duvel_min.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
+            this.btn_duvel_min.Location = new System.Drawing.Point(0, 334);
+            this.btn_duvel_min.Name = "btn_duvel_min";
+            this.btn_duvel_min.Size = new System.Drawing.Size(315, 236);
+            this.btn_duvel_min.TabIndex = 12;
+            this.btn_duvel_min.Text = "-";
+            this.btn_duvel_min.UseVisualStyleBackColor = false;
+            this.btn_duvel_min.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button6
+            // btn_duvel_plus
             // 
-            this.button6.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
-            this.button6.Location = new System.Drawing.Point(485, 334);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(315, 236);
-            this.button6.TabIndex = 13;
-            this.button6.Text = "+";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btn_duvel_plus.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_duvel_plus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_duvel_plus.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_duvel_plus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_duvel_plus.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
+            this.btn_duvel_plus.Location = new System.Drawing.Point(485, 334);
+            this.btn_duvel_plus.Name = "btn_duvel_plus";
+            this.btn_duvel_plus.Size = new System.Drawing.Size(315, 236);
+            this.btn_duvel_plus.TabIndex = 13;
+            this.btn_duvel_plus.Text = "+";
+            this.btn_duvel_plus.UseVisualStyleBackColor = false;
+            this.btn_duvel_plus.Click += new System.EventHandler(this.button6_Click);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.BurlyWood;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.lbl_hertog_jan);
+            this.panel2.Controls.Add(this.lbl_hertog_count);
             this.panel2.Location = new System.Drawing.Point(315, 98);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(170, 236);
             this.panel2.TabIndex = 17;
             // 
-            // label5
+            // lbl_hertog_jan
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.label5.Location = new System.Drawing.Point(19, 168);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(130, 29);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Hertog Jan";
+            this.lbl_hertog_jan.AutoSize = true;
+            this.lbl_hertog_jan.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lbl_hertog_jan.Location = new System.Drawing.Point(19, 168);
+            this.lbl_hertog_jan.Name = "lbl_hertog_jan";
+            this.lbl_hertog_jan.Size = new System.Drawing.Size(130, 29);
+            this.lbl_hertog_jan.TabIndex = 1;
+            this.lbl_hertog_jan.Text = "Hertog Jan";
             // 
-            // label4
+            // lbl_hertog_count
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-            this.label4.Location = new System.Drawing.Point(56, 13);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 37);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "0x";
+            this.lbl_hertog_count.AutoSize = true;
+            this.lbl_hertog_count.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
+            this.lbl_hertog_count.Location = new System.Drawing.Point(56, 13);
+            this.lbl_hertog_count.Name = "lbl_hertog_count";
+            this.lbl_hertog_count.Size = new System.Drawing.Size(50, 37);
+            this.lbl_hertog_count.TabIndex = 0;
+            this.lbl_hertog_count.Text = "0x";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.BurlyWood;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.lbl_duvel_count);
+            this.panel1.Controls.Add(this.lbl_duvel);
             this.panel1.Location = new System.Drawing.Point(315, 334);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(170, 236);
             this.panel1.TabIndex = 18;
             // 
-            // label8
+            // lbl_duvel_count
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-            this.label8.Location = new System.Drawing.Point(56, 46);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(50, 37);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "0x";
+            this.lbl_duvel_count.AutoSize = true;
+            this.lbl_duvel_count.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
+            this.lbl_duvel_count.Location = new System.Drawing.Point(56, 46);
+            this.lbl_duvel_count.Name = "lbl_duvel_count";
+            this.lbl_duvel_count.Size = new System.Drawing.Size(50, 37);
+            this.lbl_duvel_count.TabIndex = 3;
+            this.lbl_duvel_count.Text = "0x";
             // 
-            // label7
+            // lbl_duvel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label7.Location = new System.Drawing.Point(49, 163);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(68, 26);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "Duvel";
+            this.lbl_duvel.AutoSize = true;
+            this.lbl_duvel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.lbl_duvel.Location = new System.Drawing.Point(49, 163);
+            this.lbl_duvel.Name = "lbl_duvel";
+            this.lbl_duvel.Size = new System.Drawing.Size(68, 26);
+            this.lbl_duvel.TabIndex = 3;
+            this.lbl_duvel.Text = "Duvel";
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.BurlyWood;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.lbl_kriek_count);
+            this.panel3.Controls.Add(this.lbl_kriek);
             this.panel3.Location = new System.Drawing.Point(315, 570);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(170, 236);
             this.panel3.TabIndex = 24;
             // 
-            // label6
+            // lbl_kriek_count
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-            this.label6.Location = new System.Drawing.Point(56, 46);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 37);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "0x";
+            this.lbl_kriek_count.AutoSize = true;
+            this.lbl_kriek_count.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
+            this.lbl_kriek_count.Location = new System.Drawing.Point(56, 46);
+            this.lbl_kriek_count.Name = "lbl_kriek_count";
+            this.lbl_kriek_count.Size = new System.Drawing.Size(50, 37);
+            this.lbl_kriek_count.TabIndex = 3;
+            this.lbl_kriek_count.Text = "0x";
             // 
-            // label9
+            // lbl_kriek
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label9.Location = new System.Drawing.Point(49, 167);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(62, 26);
-            this.label9.TabIndex = 3;
-            this.label9.Text = "Kriek";
+            this.lbl_kriek.AutoSize = true;
+            this.lbl_kriek.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.lbl_kriek.Location = new System.Drawing.Point(49, 167);
+            this.lbl_kriek.Name = "lbl_kriek";
+            this.lbl_kriek.Size = new System.Drawing.Size(62, 26);
+            this.lbl_kriek.TabIndex = 3;
+            this.lbl_kriek.Text = "Kriek";
             // 
-            // button4
+            // btn_kriek_plus
             // 
-            this.button4.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
-            this.button4.Location = new System.Drawing.Point(485, 570);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(315, 236);
-            this.button4.TabIndex = 22;
-            this.button4.Text = "+";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            this.btn_kriek_plus.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_kriek_plus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_kriek_plus.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_kriek_plus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_kriek_plus.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
+            this.btn_kriek_plus.Location = new System.Drawing.Point(485, 570);
+            this.btn_kriek_plus.Name = "btn_kriek_plus";
+            this.btn_kriek_plus.Size = new System.Drawing.Size(315, 236);
+            this.btn_kriek_plus.TabIndex = 22;
+            this.btn_kriek_plus.Text = "+";
+            this.btn_kriek_plus.UseVisualStyleBackColor = false;
+            this.btn_kriek_plus.Click += new System.EventHandler(this.button4_Click_1);
             // 
-            // button7
+            // btn_kriek_min
             // 
-            this.button7.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
-            this.button7.Location = new System.Drawing.Point(0, 570);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(315, 236);
-            this.button7.TabIndex = 21;
-            this.button7.Text = "-";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click_1);
+            this.btn_kriek_min.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_kriek_min.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_kriek_min.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_kriek_min.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_kriek_min.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
+            this.btn_kriek_min.Location = new System.Drawing.Point(0, 570);
+            this.btn_kriek_min.Name = "btn_kriek_min";
+            this.btn_kriek_min.Size = new System.Drawing.Size(315, 236);
+            this.btn_kriek_min.TabIndex = 21;
+            this.btn_kriek_min.Text = "-";
+            this.btn_kriek_min.UseVisualStyleBackColor = false;
+            this.btn_kriek_min.Click += new System.EventHandler(this.button7_Click_1);
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.BurlyWood;
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.label14);
-            this.panel6.Controls.Add(this.label15);
+            this.panel6.Controls.Add(this.lbl_leffe);
+            this.panel6.Controls.Add(this.lbl_leffe_count);
             this.panel6.Location = new System.Drawing.Point(315, 805);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(170, 236);
             this.panel6.TabIndex = 29;
             // 
-            // label14
+            // lbl_leffe
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.label14.Location = new System.Drawing.Point(19, 169);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(136, 29);
-            this.label14.TabIndex = 1;
-            this.label14.Text = "Leffe Triple";
+            this.lbl_leffe.AutoSize = true;
+            this.lbl_leffe.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lbl_leffe.Location = new System.Drawing.Point(19, 169);
+            this.lbl_leffe.Name = "lbl_leffe";
+            this.lbl_leffe.Size = new System.Drawing.Size(136, 29);
+            this.lbl_leffe.TabIndex = 1;
+            this.lbl_leffe.Text = "Leffe Triple";
             // 
-            // label15
+            // lbl_leffe_count
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-            this.label15.Location = new System.Drawing.Point(56, 54);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(50, 37);
-            this.label15.TabIndex = 0;
-            this.label15.Text = "0x";
+            this.lbl_leffe_count.AutoSize = true;
+            this.lbl_leffe_count.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
+            this.lbl_leffe_count.Location = new System.Drawing.Point(56, 54);
+            this.lbl_leffe_count.Name = "lbl_leffe_count";
+            this.lbl_leffe_count.Size = new System.Drawing.Size(50, 37);
+            this.lbl_leffe_count.TabIndex = 0;
+            this.lbl_leffe_count.Text = "0x";
             // 
-            // button12
+            // lbl_leffe_plus
             // 
-            this.button12.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
-            this.button12.Location = new System.Drawing.Point(485, 805);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(315, 236);
-            this.button12.TabIndex = 26;
-            this.button12.Text = "+";
-            this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
+            this.lbl_leffe_plus.BackColor = System.Drawing.Color.LemonChiffon;
+            this.lbl_leffe_plus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbl_leffe_plus.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.lbl_leffe_plus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl_leffe_plus.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
+            this.lbl_leffe_plus.Location = new System.Drawing.Point(485, 805);
+            this.lbl_leffe_plus.Name = "lbl_leffe_plus";
+            this.lbl_leffe_plus.Size = new System.Drawing.Size(315, 236);
+            this.lbl_leffe_plus.TabIndex = 26;
+            this.lbl_leffe_plus.Text = "+";
+            this.lbl_leffe_plus.UseVisualStyleBackColor = false;
+            this.lbl_leffe_plus.Click += new System.EventHandler(this.button12_Click);
             // 
-            // button13
+            // btn_leffe_min
             // 
-            this.button13.BackColor = System.Drawing.Color.LemonChiffon;
-            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
-            this.button13.Location = new System.Drawing.Point(0, 805);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(315, 236);
-            this.button13.TabIndex = 25;
-            this.button13.Text = "-";
-            this.button13.UseVisualStyleBackColor = false;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
+            this.btn_leffe_min.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn_leffe_min.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_leffe_min.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_leffe_min.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_leffe_min.Font = new System.Drawing.Font("MS Reference Sans Serif", 80F);
+            this.btn_leffe_min.Location = new System.Drawing.Point(0, 805);
+            this.btn_leffe_min.Name = "btn_leffe_min";
+            this.btn_leffe_min.Size = new System.Drawing.Size(315, 236);
+            this.btn_leffe_min.TabIndex = 25;
+            this.btn_leffe_min.Text = "-";
+            this.btn_leffe_min.UseVisualStyleBackColor = false;
+            this.btn_leffe_min.Click += new System.EventHandler(this.button13_Click);
             // 
             // Bier
             // 
@@ -358,21 +358,21 @@
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(800, 1204);
             this.Controls.Add(this.panel6);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button13);
+            this.Controls.Add(this.lbl_leffe_plus);
+            this.Controls.Add(this.btn_leffe_min);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.btn_kriek_plus);
+            this.Controls.Add(this.btn_kriek_min);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btn_duvel_plus);
+            this.Controls.Add(this.btn_duvel_min);
+            this.Controls.Add(this.btn_hertog_plus);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btn_terug);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_hertog_min);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(800, 1280);
@@ -396,30 +396,30 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_hertog_min;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btn_terug;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btn_hertog_plus;
+        private System.Windows.Forms.Button btn_duvel_min;
+        private System.Windows.Forms.Button btn_duvel_plus;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbl_hertog_jan;
+        private System.Windows.Forms.Label lbl_hertog_count;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lbl_duvel_count;
+        private System.Windows.Forms.Label lbl_duvel;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label lbl_kriek_count;
+        private System.Windows.Forms.Label lbl_kriek;
+        private System.Windows.Forms.Button btn_kriek_plus;
+        private System.Windows.Forms.Button btn_kriek_min;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Label lbl_leffe;
+        private System.Windows.Forms.Label lbl_leffe_count;
+        private System.Windows.Forms.Button lbl_leffe_plus;
+        private System.Windows.Forms.Button btn_leffe_min;
     }
 }
