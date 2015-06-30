@@ -98,10 +98,11 @@ namespace PDAapplicatie {
         }
 
         private void Form1_Load (object sender, EventArgs e) {
-            double prijs = waarden.Totaal;
+            double prijs = 0.00;
             foreach (Product p in waarden.Bestelling) {
-                prijs += p.prijs;
+                waarden.Totaal += p.prijs;
             }
+            prijs = waarden.Totaal;
             button3.Text = "Totaal: €" + prijs;
             label4.Text = "Tafel " + waarden.Tafelnummer;
         }
